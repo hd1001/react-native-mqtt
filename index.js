@@ -96,7 +96,7 @@ module.exports = {
 			this.clients.splice(clientIdx, 1);
 
 		if(this.clients.length > 0) {
-			this.eventHandler.remove();
+			this.eventHandler&&this.eventHandler.remove();
 			this.eventHandler = null;
 		}
 	}

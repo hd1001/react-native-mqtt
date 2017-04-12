@@ -6,10 +6,10 @@
 //  Copyright © 2016 Tuan PM. All rights reserved.
 //
 #import <Foundation/Foundation.h>
-#import "RCTBridgeModule.h"
-#import "RCTLog.h"
-#import "RCTUtils.h"
-#import "RCTEventDispatcher.h"
+#import <React/RCTBridgeModule.h>
+#import <React/RCTLog.h>
+#import <React/RCTUtils.h>
+#import <React/RCTEventDispatcher.h>
 
 #import <MQTTClient/MQTTClient.h>
 #import <MQTTClient/MQTTSessionManager.h>
