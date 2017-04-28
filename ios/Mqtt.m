@@ -185,6 +185,9 @@
     
     NSString *dataString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     //RCTLogInfo(@" %@ : %@", topic, dataString);
+    if (dataString == nil) {
+      dataString = @"";
+    }
     [self.bridge.eventDispatcher sendDeviceEventWithName:@"mqtt_events"
                                                     body:@{
                                                            @"event": @"message",
