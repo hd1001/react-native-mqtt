@@ -33,7 +33,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.facebook.react:react-native:0.19.+'
+  compile 'com.facebook.react:react-native:+'
   compile files('libs/org.eclipse.paho.client.mqttv3-1.0.1.jar')
 }
 
